@@ -1,0 +1,33 @@
+/home/qpyra/Завантажене/Lab1 (2)/Lecture2/Domain/bin/Debug/net8.0/Domain.deps.json
+/home/qpyra/Завантажене/Lab1 (2)/Lecture2/Domain/bin/Debug/net8.0/Domain.dll
+/home/qpyra/Завантажене/Lab1 (2)/Lecture2/Domain/bin/Debug/net8.0/Domain.pdb
+/home/qpyra/Завантажене/Lab1 (2)/Lecture2/Domain/obj/Debug/net8.0/Domain.GeneratedMSBuildEditorConfig.editorconfig
+/home/qpyra/Завантажене/Lab1 (2)/Lecture2/Domain/obj/Debug/net8.0/Domain.AssemblyInfoInputs.cache
+/home/qpyra/Завантажене/Lab1 (2)/Lecture2/Domain/obj/Debug/net8.0/Domain.AssemblyInfo.cs
+/home/qpyra/Завантажене/Lab1 (2)/Lecture2/Domain/obj/Debug/net8.0/Domain.csproj.CoreCompileInputs.cache
+/home/qpyra/Завантажене/Lab1 (2)/Lecture2/Domain/obj/Debug/net8.0/Domain.dll
+/home/qpyra/Завантажене/Lab1 (2)/Lecture2/Domain/obj/Debug/net8.0/refint/Domain.dll
+/home/qpyra/Завантажене/Lab1 (2)/Lecture2/Domain/obj/Debug/net8.0/Domain.pdb
+/home/qpyra/Завантажене/Lab1 (2)/Lecture2/Domain/obj/Debug/net8.0/ref/Domain.dll
+C:\Users\vetal\RiderProjects\Lecture2\Domain\bin\Debug\net8.0\Domain.deps.json
+C:\Users\vetal\RiderProjects\Lecture2\Domain\bin\Debug\net8.0\Domain.dll
+C:\Users\vetal\RiderProjects\Lecture2\Domain\bin\Debug\net8.0\Domain.pdb
+C:\Users\vetal\RiderProjects\Lecture2\Domain\obj\Debug\net8.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vetal\RiderProjects\Lecture2\Domain\obj\Debug\net8.0\Domain.AssemblyInfoInputs.cache
+C:\Users\vetal\RiderProjects\Lecture2\Domain\obj\Debug\net8.0\Domain.AssemblyInfo.cs
+C:\Users\vetal\RiderProjects\Lecture2\Domain\obj\Debug\net8.0\Domain.csproj.CoreCompileInputs.cache
+C:\Users\vetal\RiderProjects\Lecture2\Domain\obj\Debug\net8.0\Domain.dll
+C:\Users\vetal\RiderProjects\Lecture2\Domain\obj\Debug\net8.0\refint\Domain.dll
+C:\Users\vetal\RiderProjects\Lecture2\Domain\obj\Debug\net8.0\Domain.pdb
+C:\Users\vetal\RiderProjects\Lecture2\Domain\obj\Debug\net8.0\ref\Domain.dll
+C:\Users\vetal\RiderProjects\RecipeManagementSystem\Domain\bin\Debug\net8.0\Domain.deps.json
+C:\Users\vetal\RiderProjects\RecipeManagementSystem\Domain\bin\Debug\net8.0\Domain.dll
+C:\Users\vetal\RiderProjects\RecipeManagementSystem\Domain\bin\Debug\net8.0\Domain.pdb
+C:\Users\vetal\RiderProjects\RecipeManagementSystem\Domain\obj\Debug\net8.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vetal\RiderProjects\RecipeManagementSystem\Domain\obj\Debug\net8.0\Domain.AssemblyInfoInputs.cache
+C:\Users\vetal\RiderProjects\RecipeManagementSystem\Domain\obj\Debug\net8.0\Domain.AssemblyInfo.cs
+C:\Users\vetal\RiderProjects\RecipeManagementSystem\Domain\obj\Debug\net8.0\Domain.csproj.CoreCompileInputs.cache
+C:\Users\vetal\RiderProjects\RecipeManagementSystem\Domain\obj\Debug\net8.0\Domain.dll
+C:\Users\vetal\RiderProjects\RecipeManagementSystem\Domain\obj\Debug\net8.0\refint\Domain.dll
+C:\Users\vetal\RiderProjects\RecipeManagementSystem\Domain\obj\Debug\net8.0\Domain.pdb
+C:\Users\vetal\RiderProjects\RecipeManagementSystem\Domain\obj\Debug\net8.0\ref\Domain.dll

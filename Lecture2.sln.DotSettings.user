@@ -1,0 +1,132 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:Boolean x:Key="/Default/AddReferences/RecentPaths/=C_003A_005CUsers_005Cvetal_005CDownloads_005CLecture2_005Ctests_005CTests_002EData_005Cbin_005CDebug_005Cnet8_002E0_005CDomain_002Edll/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/AddReferences/RecentPaths/=C_003A_005CUsers_005Cvetal_005CRiderProjects_005CLecture2_005CDomain_005Cbin_005CDebug_005Cnet8_002E0_005CDomain_002Edll/@EntryIndexedValue">True</s:Boolean>
+	<s:String x:Key="/Default/CodeInspection/ExcludedFiles/FilesAndFoldersToSkip2/=7020124F_002D9FFC_002D4AC3_002D8F3D_002DAAB8E0240759_002Ff_003ACollectionNavigationBuilder_00602_002Ecs_002Fl_003A_002E_002E_003F_002E_002E_003F_002E_002E_003F_002Econfig_003FJetBrains_003FRider2024_002E2_003Fresharper_002Dhost_003FDecompilerCache_003Fdecompiler_003F0706dcfabddf4241b89dd5a90ab7061526a828_003Fbe_003Fc5e6c338_003FCollectionNavigationBuilder_00602_002Ecs/@EntryIndexedValue">ForceIncluded</s:String>
+	<s:String x:Key="/Default/CodeInspection/ExcludedFiles/FilesAndFoldersToSkip2/=7020124F_002D9FFC_002D4AC3_002D8F3D_002DAAB8E0240759_002Ff_003AControllerBase_002Ecs_002Fl_003A_002E_002E_003F_002E_002E_003F_002E_002E_003F_002E_002E_003F_002E_002E_003FLibrary_003FApplication_0020Support_003FJetBrains_003FRider2024_002E2_003Fresharper_002Dhost_003FSourcesCache_003F1b445ceb1c5ab1d07b7b55412b10a5e21169ec87228ca8ad8a18a6982f3278_003FControllerBase_002Ecs/@EntryIndexedValue">ForceIncluded</s:String>
+	<s:String x:Key="/Default/CodeInspection/ExcludedFiles/FilesAndFoldersToSkip2/=7020124F_002D9FFC_002D4AC3_002D8F3D_002DAAB8E0240759_002Ff_003AFluentValidationMvcExtensions_002Ecs_002Fl_003A_002E_002E_003F_002E_002E_003F_002E_002E_003F_002E_002E_003F_002E_002E_003FLibrary_003FApplication_0020Support_003FJetBrains_003FRider2024_002E2_003Fresharper_002Dhost_003FSourcesCache_003Fecc6246fd855ee6a4602ae9988369e56f35ce0107895f34cfd2b9274e27ac1_003FFluentValidationMvcExtensions_002Ecs/@EntryIndexedValue">ForceIncluded</s:String>
+	<s:String x:Key="/Default/CodeInspection/ExcludedFiles/FilesAndFoldersToSkip2/=7020124F_002D9FFC_002D4AC3_002D8F3D_002DAAB8E0240759_002Ff_003AInt32_002Ecs_002Fl_003A_002E_002E_003F_002E_002E_003FAppData_003FRoaming_003FJetBrains_003FRider2024_002E2_003Fresharper_002Dhost_003FSourcesCache_003Faef21ab35a6576cdcb99a56e6a8c84076d069f09ad1be52cfedaf49ee667855_003FInt32_002Ecs/@EntryIndexedValue">ForceIncluded</s:String>
+	<s:String x:Key="/Default/CodeInspection/ExcludedFiles/FilesAndFoldersToSkip2/=7020124F_002D9FFC_002D4AC3_002D8F3D_002DAAB8E0240759_002Ff_003AProgram_002Ecs_002Fl_003A_002E_002E_003F_002E_002E_003FAppData_003FRoaming_003FJetBrains_003FRider2024_002E2_003Fresharper_002Dhost_003FSourcesCache_003Fd4fd9eaa33d964b75f812ccbe33f4bf158a5dcbc2c08c95e5e8deec18bec4ee_003FProgram_002Ecs/@EntryIndexedValue">ForceIncluded</s:String>
+	<s:String x:Key="/Default/CodeInspection/ExcludedFiles/FilesAndFoldersToSkip2/=7020124F_002D9FFC_002D4AC3_002D8F3D_002DAAB8E0240759_002Ff_003AWebApplicationFactory_002Ecs_002Fl_003A_002E_002E_003F_002E_002E_003FAppData_003FRoaming_003FJetBrains_003FRider2024_002E2_003Fresharper_002Dhost_003FSourcesCache_003Fd7dbe7c4cc75f01532fb6ce687bce710e21c95e6c44fd11dbe73c87d22758_003FWebApplicationFactory_002Ecs/@EntryIndexedValue">ForceIncluded</s:String>
+	<s:String x:Key="/Default/Environment/AssemblyExplorer/XmlDocument/@EntryValue">&lt;AssemblyExplorer /&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=1a0344d5_002D6977_002D408c_002Db3d5_002Dac23bb7f01a0/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="ShouldCreateCourse #7" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;xUnit::CE04E134-AA19-453D-BBEA-713ABC2D654A::net8.0::Api.Tests.Integration.Courses.CoursesControllerTests.ShouldCreateCourse&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=24b3d1bf_002Daed8_002D403f_002Db3da_002Deb29579e57d2/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="ShouldCreateCourse #3" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;xUnit::CE04E134-AA19-453D-BBEA-713ABC2D654A::net8.0::Api.Tests.Integration.Courses.CoursesControllerTests.ShouldCreateCourse&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=277d4d83_002Deb17_002D4272_002D8ba5_002Defc1bb47238b/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="All tests from &amp;lt;tests&amp;gt;\&amp;lt;Api.Tests.Integration&amp;gt; #2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;Project Location="C:\Users\vetal\Downloads\Lecture2\tests\Api.Tests.Integration" Presentation="&amp;lt;tests&amp;gt;\&amp;lt;Api.Tests.Integration&amp;gt;" /&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=29744490_002D5226_002D44e0_002Dbe05_002Dea1dfb18816f/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="ShouldCreateUser" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;xUnit::CE04E134-AA19-453D-BBEA-713ABC2D654A::net8.0::Api.Tests.Integration.Users.UsersControllerTests.ShouldCreateUser&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=2fefc14e_002D408e_002D44fa_002D9c48_002D2ef257ff5c94/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="ShouldCreateCourse #14" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;ProjectFile&gt;CE04E134-AA19-453D-BBEA-713ABC2D654A/d:Courses/f:CoursesControllerTests.cs&lt;/ProjectFile&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=3161cf14_002D26db_002D4b1f_002D862c_002D9fbcb09719f5/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="All tests from &amp;lt;tests&amp;gt;\&amp;lt;Api.Tests.Integration&amp;gt;" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;Project Location="C:\Users\vetal\Downloads\Lecture2\tests\Api.Tests.Integration" Presentation="&amp;lt;tests&amp;gt;\&amp;lt;Api.Tests.Integration&amp;gt;" /&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=474f3296_002D1437_002D4dfa_002D98d4_002Daf37d37dfca5/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="ShouldCreateCourse #8" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;xUnit::CE04E134-AA19-453D-BBEA-713ABC2D654A::net8.0::Api.Tests.Integration.Courses.CoursesControllerTests.ShouldCreateCourse&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=5ca45e37_002Dd9e1_002D46c2_002D930e_002D77a661be3670/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="All tests from UsersControllerTests.cs" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;Or&gt;&#xD;
+    &lt;ProjectFile&gt;F4051FF3-3C74-440C-B555-C37B4ABE907C/d:Users/f:UsersControllerTests.cs&lt;/ProjectFile&gt;&#xD;
+    &lt;ProjectFile&gt;F4051FF3-3C74-440C-B555-C37B4ABE907C/d:Courses/f:CoursesControllerTests.cs&lt;/ProjectFile&gt;&#xD;
+    &lt;ProjectFile&gt;F4051FF3-3C74-440C-B555-C37B4ABE907C/d:Faculties/f:FacultiesControllerTests.cs&lt;/ProjectFile&gt;&#xD;
+  &lt;/Or&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=7218ede0_002D506a_002D482f_002D8a8c_002Db7e609341f3f/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="ShouldCreateCourse #13" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;xUnit::CE04E134-AA19-453D-BBEA-713ABC2D654A::net8.0::Api.Tests.Integration.Courses.CoursesControllerTests.ShouldCreateCourse&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=7c3ddaa0_002D9b25_002D4fdc_002D8fa3_002Da85296f0f830/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="ShouldUpdateFaculty #2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;xUnit::CE04E134-AA19-453D-BBEA-713ABC2D654A::net8.0::Api.Tests.Integration.Faculties.FacultiesControllerTests.ShouldUpdateFaculty&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=8621b3e1_002Dd8e3_002D41f8_002Dbd04_002Dc4541514a34c/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="ShouldCreateCourse #2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;xUnit::CE04E134-AA19-453D-BBEA-713ABC2D654A::net8.0::Api.Tests.Integration.Courses.CoursesControllerTests.ShouldCreateCourse&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=8d46cced_002Dfe7f_002D49c8_002D9ba8_002D0e44bf03180e/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="ShouldCreateCourse #15" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;Or&gt;&#xD;
+    &lt;ProjectFile&gt;F4051FF3-3C74-440C-B555-C37B4ABE907C/d:Courses/f:CoursesControllerTests.cs&lt;/ProjectFile&gt;&#xD;
+    &lt;ProjectFile&gt;F4051FF3-3C74-440C-B555-C37B4ABE907C/d:Faculties/f:FacultiesControllerTests.cs&lt;/ProjectFile&gt;&#xD;
+    &lt;ProjectFile&gt;F4051FF3-3C74-440C-B555-C37B4ABE907C/d:Users/f:UsersControllerTests.cs&lt;/ProjectFile&gt;&#xD;
+  &lt;/Or&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=8f7f8c37_002Dcc2e_002D4d92_002D8641_002D97d51a72bfc0/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="ShouldNotCreateCourseBecauseNameDuplicated" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;xUnit::CE04E134-AA19-453D-BBEA-713ABC2D654A::net8.0::Api.Tests.Integration.Courses.CoursesControllerTests.ShouldNotCreateCourseBecauseNameDuplicated&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=9028fa10_002Dc536_002D4e4e_002D88e1_002D5186e02e2ad7/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="ShouldUpdateFaculty" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;xUnit::CE04E134-AA19-453D-BBEA-713ABC2D654A::net8.0::Api.Tests.Integration.Faculties.FacultiesControllerTests.ShouldUpdateFaculty&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=9440ab56_002Dbca2_002D46d3_002Da240_002Dae35baa52101/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="ShouldCreateCourse #11" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;xUnit::CE04E134-AA19-453D-BBEA-713ABC2D654A::net8.0::Api.Tests.Integration.Courses.CoursesControllerTests.ShouldCreateCourse&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=998becfc_002D36f0_002D45d3_002D9d37_002Dd040aa722b1c/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="ShouldCreateFaculty" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;xUnit::CE04E134-AA19-453D-BBEA-713ABC2D654A::net8.0::Api.Tests.Integration.Faculties.FacultiesControllerTests.ShouldCreateFaculty&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=a7b08116_002Db6af_002D41e3_002Dafd8_002D70b5b6136917/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="ShouldCreateCourse #12" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;xUnit::CE04E134-AA19-453D-BBEA-713ABC2D654A::net8.0::Api.Tests.Integration.Courses.CoursesControllerTests.ShouldCreateCourse&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=af328558_002De486_002D4258_002D92cb_002Dcc170c872100/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="ShouldCreateCourse #6" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;xUnit::CE04E134-AA19-453D-BBEA-713ABC2D654A::net8.0::Api.Tests.Integration.Courses.CoursesControllerTests.ShouldCreateCourse&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=c840d480_002D66db_002D49d4_002D8ea1_002D5ceacfa0d201/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="ShouldCreateCourse" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;xUnit::CE04E134-AA19-453D-BBEA-713ABC2D654A::net8.0::Api.Tests.Integration.Courses.CoursesControllerTests.ShouldCreateCourse&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=d1d5face_002Db0b0_002D4102_002D8c65_002D512c1e9a3648/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="ShouldCreateCourse #10" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;xUnit::CE04E134-AA19-453D-BBEA-713ABC2D654A::net8.0::Api.Tests.Integration.Courses.CoursesControllerTests.ShouldCreateCourse&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=dfde9523_002D799d_002D48fe_002Dbb79_002D2d7c9b39d46b/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="CoursesControllerTests" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;xUnit::CE04E134-AA19-453D-BBEA-713ABC2D654A::net8.0::Api.Tests.Integration.Courses.CoursesControllerTests&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=f42f2e5c_002Db5a3_002D4ed9_002Da669_002D30cce2fdf490/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="ShouldCreateCourse #4" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;xUnit::CE04E134-AA19-453D-BBEA-713ABC2D654A::net8.0::Api.Tests.Integration.Courses.CoursesControllerTests.ShouldCreateCourse&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=f958f1ae_002D2719_002D4501_002D81f8_002D8ea2d5ce9a93/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="ShouldCreateCourse #5" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;xUnit::CE04E134-AA19-453D-BBEA-713ABC2D654A::net8.0::Api.Tests.Integration.Courses.CoursesControllerTests.ShouldCreateCourse&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=fd517418_002D3df0_002D4014_002Da7ce_002D76ee03cd5d9d/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="ShouldCreateCourse #9" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;xUnit::CE04E134-AA19-453D-BBEA-713ABC2D654A::net8.0::Api.Tests.Integration.Courses.CoursesControllerTests.ShouldCreateCourse&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	
+	
+	
+	</wpf:ResourceDictionary>

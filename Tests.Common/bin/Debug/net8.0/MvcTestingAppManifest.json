@@ -1,0 +1,7 @@
+{
+  "Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\vetal\\RiderProjects\\Lecture2\\Api",
+  "Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\vetal\\RiderProjects\\Lecture2\\Application",
+  "Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\vetal\\RiderProjects\\Lecture2\\Domain",
+  "Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\vetal\\RiderProjects\\Lecture2\\Infrastructure",
+  "Tests.Data, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\vetal\\RiderProjects\\Lecture2\\Tests.Data"
+}
