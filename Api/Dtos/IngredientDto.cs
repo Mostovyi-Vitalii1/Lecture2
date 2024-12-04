@@ -17,10 +17,22 @@ namespace Api.Dtos
             };
         }
     }
+
     public class IngredientRequestDto
     {
+        
         public string Name { get; set; }
-        // Метод для конвертації з доменної моделі в DTO
+        public decimal Quantity { get; set; }
+        public string Unit { get; set; }
+
+        // Конструктор для зручного створення об'єкта
+        public IngredientRequestDto(string name, decimal quantity, string unit)
+        {
+            Name = name;
+            Quantity = quantity;
+            Unit = unit;
+        }
+
         public static IngredientResponseDto FromDomainModel(Domain.Ingradients.Ingredient ingredient)
         {
             return new IngredientResponseDto
@@ -31,5 +43,4 @@ namespace Api.Dtos
         }
 
     }
-
 }

@@ -11,7 +11,7 @@ namespace Domain.Recipes
         public string Description { get; set; }
         public TimeSpan PreparationTime { get; set; }
         public DateTime CreatedAt { get; set; }
-        public List<FavoriteRecipes> FavoriteRecipes { get; set; }   
+        public ICollection<FavoriteRecipes> FavoriteRecipes { get; set; }
         public ICollection<RecipeIngredient> RecipeIngredients { get; set; } = new List<RecipeIngredient>();
 
         // Конструктор, що приймає TimeSpan для PreparationTime
@@ -21,8 +21,14 @@ namespace Domain.Recipes
             Name = name;
             Description = description;
             PreparationTime = preparationTime;
-            CreatedAt = DateTime.Now;
+            CreatedAt = DateTime.UtcNow;
             RecipeIngredients = new List<RecipeIngredient>();
+        }
+        // Конструктор для ініціалізації основних властивостей
+        public Recipe(string name, string description = null)
+        {
+            Name = name;
+            Description = description;
         }
 
         // Оновлений метод New для роботи з int для preparationTime
@@ -44,30 +50,15 @@ namespace Domain.Recipes
             PreparationTime = TimeSpan.FromMinutes(preparationTimeMinutes); // Конвертуємо int в TimeSpan
             RecipeIngredients = recipeIngredients;
         }
-    }
 
-    // Модель для RecipeIngredient
-    public class RecipeIngredient
-    {
-        public RecipeIngredientsId   Id { get; set; }
-        public Guid RecipeId { get; set; }
-        public IngredientId IngredientId { get; set; }
-        public string IngredientName { get; set; }
-        public decimal Quantity { get; set; }
-        public string Unit { get; set; }
-
-        public Recipe Recipe { get; set; }
-        public Ingredient Ingredient { get; set; }
-
-        public RecipeIngredient(Guid recipeId, RecipeIngredientsId id, IngredientId ingredientId, string ingredientName, decimal quantity, string unit)
+        public static Recipe New(RecipeId name, string mainRecipeTitle, string preparationTimeMinutes, DateTime recipeIngredients)
         {
-            RecipeId = recipeId;
-            Id = id;  // Використовуємо правильний тип для Id
-            IngredientId = ingredientId;
-            IngredientName = ingredientName;
-            Quantity = quantity;
-            Unit = unit;
+            name = name;
+            mainRecipeTitle = mainRecipeTitle;
+            preparationTimeMinutes = preparationTimeMinutes;
+            return new Recipe(mainRecipeTitle, preparationTimeMinutes);
         }
-
     }
+
+ 
 }

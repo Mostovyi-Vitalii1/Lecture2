@@ -7,11 +7,14 @@ namespace Domain.Ingradients
         public IngredientId Id { get; set; }  // Ідентифікатор інгредієнта
         public string Name { get; set; }  // Назва інгредієнта
         public ICollection<RecipeIngredient> RecipeIngredients { get; set; } = new List<RecipeIngredient>();
-        public Ingredient(string name)
-        {
-            Id = IngredientId.New();
-        }
+       
 
+        // Конструктор, який вимагає параметри
+        public Ingredient (string name)
+        {
+            Id = IngredientId.New();  // Генерація нового ID для інгредієнта
+            Name = name;
+        }
 
         private Ingredient(IngredientId id, string name)
         {

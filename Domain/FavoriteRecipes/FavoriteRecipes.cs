@@ -18,6 +18,17 @@ public class FavoriteRecipes
         UserId = userId;
         RecipeId = recipeId;
     }
+    public FavoriteRecipes(FavoriteRecipesId id, UserRId userId, Guid recipeId)
+    {
+        Id = FavoriteRecipesId.New();
+        UserId = userId;
+        RecipeId = recipeId;
+    }
+    
+    public static FavoriteRecipes New(FavoriteRecipesId id, UserRId userId, RecipeId recipeId)
+    {
+        return new FavoriteRecipes(id, userId, recipeId);
+    }
 }
 
 

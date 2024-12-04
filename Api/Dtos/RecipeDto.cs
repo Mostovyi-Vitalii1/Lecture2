@@ -1,12 +1,31 @@
-﻿namespace Api.Dtos;
+﻿using Api.Dtos;
+using Domain.Recipes;
 
-public class RecipeDto
+public record RecipeDto(
+    Guid Id,
+    
+    string Name,
+    string Description,
+    int PreparationTimeMinutes,
+    DateTime CreatedAt,
+    List<IngredientRequestDto> Ingredients)
 {
-    public Guid Id { get; set; }
-    public string Name { get; set; }
-    public string Category { get; set; }
-    public string Instructions { get; set; }
-    public TimeSpan PreparationTime { get; set; }
-    public DateTime CreatedAt { get; set; }
-    public List<IngredientRequestDto> Ingredients { get; set; } = new();
+    public static RecipeDto FromDomainModel(Recipe recipe) => new(
+        Id: recipe.Id,
+        Name: recipe.Name,
+        Description: recipe.Description,
+        PreparationTimeMinutes: (int)recipe.PreparationTime.TotalMinutes,
+        CreatedAt: recipe.CreatedAt,
+        Ingredients: recipe.RecipeIngredients
+            .Select(ri => new IngredientRequestDto(ri.IngredientName, ri.Quantity, ri.Unit))
+            .ToList());
 }
+
+/*
+public record CreateRecipeDto(
+    string Name,
+    string Description,
+    int PreparationTimeMinutes,
+    DateTime CreatedAt,
+    List<IngredientRequestDto> Ingredients);
+    */

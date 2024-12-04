@@ -1,8 +1,6 @@
 ﻿using Domain.Recipes;
 using Optional;
 
-namespace Application.Common.Interfaces.Repositories;
-
 public interface IRecipeRepository
 {
     Task<Recipe> Add(Recipe recipe, CancellationToken cancellationToken);

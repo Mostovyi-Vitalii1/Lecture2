@@ -19,10 +19,13 @@ namespace Infrastructure.Persistence.Repositories
             return await _context.Set<RecipeIngredient>().FindAsync(new object[] { id }, cancellationToken);
         }
 
-        public Task<List<RecipeIngredient>> GetAllByRecipeId(Guid recipeId, CancellationToken cancellationToken)
+        public async Task<List<RecipeIngredient>> GetAllByRecipeId(Guid recipeId, CancellationToken cancellationToken)
         {
-            throw new NotImplementedException();
+            return await _context.Set<RecipeIngredient>()
+                .Where(ri => ri.RecipeId == recipeId)
+                .ToListAsync(cancellationToken);
         }
+
 
 
         public async Task<List<RecipeIngredient>> GetAllByIngredientId(Guid ingredientId, CancellationToken cancellationToken)
