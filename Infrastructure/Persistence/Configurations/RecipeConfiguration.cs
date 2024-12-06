@@ -8,7 +8,6 @@ public class RecipeConfiguration : IEntityTypeConfiguration<Recipe>
     {
         // Визначення первинного ключа для Recipe
         builder.HasKey(r => r.Id);
-        builder.ToTable("Recipe");
 
         // Конфігурація властивості Name
         builder.Property(r => r.Name)

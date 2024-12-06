@@ -376,7 +376,6 @@ C:\Users\vetal\RiderProjects\RecipeManagementSystem\Api\obj\Debug\net8.0\staticw
 C:\Users\vetal\RiderProjects\RecipeManagementSystem\Api\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Api.props
 C:\Users\vetal\RiderProjects\RecipeManagementSystem\Api\obj\Debug\net8.0\staticwebassets.pack.json
 C:\Users\vetal\RiderProjects\RecipeManagementSystem\Api\obj\Debug\net8.0\scopedcss\bundle\Api.styles.css
-C:\Users\vetal\RiderProjects\RecipeManagementSystem\Api\obj\Debug\net8.0\Api.csproj.Up2Date
 C:\Users\vetal\RiderProjects\RecipeManagementSystem\Api\obj\Debug\net8.0\Api.dll
 C:\Users\vetal\RiderProjects\RecipeManagementSystem\Api\obj\Debug\net8.0\refint\Api.dll
 C:\Users\vetal\RiderProjects\RecipeManagementSystem\Api\obj\Debug\net8.0\Api.pdb
@@ -521,7 +520,6 @@ C:\Users\vetal\RiderProjects\RestApi\Api\obj\Debug\net8.0\refint\Api.dll
 C:\Users\vetal\RiderProjects\RestApi\Api\obj\Debug\net8.0\Api.pdb
 C:\Users\vetal\RiderProjects\RestApi\Api\obj\Debug\net8.0\Api.genruntimeconfig.cache
 C:\Users\vetal\RiderProjects\RestApi\Api\obj\Debug\net8.0\ref\Api.dll
-C:\Users\vetal\RiderProjects\RecipeManagementSystem\Api\bin\Debug\net8.0\Api.staticwebassets.endpoints.json
 C:\Users\vetal\RiderProjects\RecipeManagementSystem\Api\obj\Debug\net8.0\Api.sourcelink.json
-C:\Users\vetal\RiderProjects\RecipeManagementSystem\Api\obj\Debug\net8.0\staticwebassets.build.endpoints.json
-C:\Users\vetal\RiderProjects\RecipeManagementSystem\Api\obj\Debug\net8.0\staticwebassets\msbuild.Api.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\Users\vetal\RiderProjects\RecipeManagementSystem\Api\bin\Debug\net8.0\System.Text.Json.dll
+C:\Users\vetal\RiderProjects\RecipeManagementSystem\Api\obj\Debug\net8.0\Api.csproj.CopyComplete

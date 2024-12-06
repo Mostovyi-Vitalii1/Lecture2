@@ -8,7 +8,6 @@ public class FavoriteRecipesConfiguration : IEntityTypeConfiguration<FavoriteRec
     {
         builder.HasKey(fr => fr.Id);
         
-        builder.ToTable("FavoriteRecipes");
         // Замість перетворення через HasConversion використовується Guid напряму.
         builder.Property(fr => fr.UserId).IsRequired();
         builder.Property(fr => fr.RecipeId).IsRequired();

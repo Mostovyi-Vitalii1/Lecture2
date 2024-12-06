@@ -13,7 +13,6 @@ namespace Infrastructure.Persistence.Configurations
         {
             // Встановлюємо первинний ключ
             builder.HasKey(ri => ri.Id); 
-            builder.ToTable("RecipeIngredients");
 
             // Визначення перетворення для ідентифікаторів
             var recipeIngredientsIdConverter = new RecipeIngredientsIdConverter();

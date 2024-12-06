@@ -17,8 +17,12 @@ public record RecipeDto(
         PreparationTimeMinutes: (int)recipe.PreparationTime.TotalMinutes,
         CreatedAt: recipe.CreatedAt,
         Ingredients: recipe.RecipeIngredients
-            .Select(ri => new IngredientRequestDto(ri.IngredientName, ri.Quantity, ri.Unit))
+            .Select(ri => new IngredientRequestDto(
+                ri.IngredientName, // Назва інгредієнта
+                ri.Quantity,       // Кількість
+                ri.Unit))          // Одиниця вимірювання
             .ToList());
+
 }
 
 /*

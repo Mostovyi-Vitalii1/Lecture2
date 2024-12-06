@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using Domain.Ingradients;
 
 namespace Domain.Recipes
 {
@@ -13,6 +12,7 @@ namespace Domain.Recipes
         public DateTime CreatedAt { get; set; }
         public ICollection<FavoriteRecipes> FavoriteRecipes { get; set; }
         public ICollection<RecipeIngredient> RecipeIngredients { get; set; } = new List<RecipeIngredient>();
+        // Використовуємо private setter для колекції
 
         // Конструктор, що приймає TimeSpan для PreparationTime
         public Recipe(string name, string description, TimeSpan preparationTime)
@@ -22,22 +22,27 @@ namespace Domain.Recipes
             Description = description;
             PreparationTime = preparationTime;
             CreatedAt = DateTime.UtcNow;
-            RecipeIngredients = new List<RecipeIngredient>();
+            RecipeIngredients = new List<RecipeIngredient>(); // ініціалізація списку інгредієнтів
         }
+
         // Конструктор для ініціалізації основних властивостей
         public Recipe(string name, string description = null)
         {
             Name = name;
             Description = description;
+            RecipeIngredients = new List<RecipeIngredient>(); // ініціалізація списку інгредієнтів
         }
-
-        // Оновлений метод New для роботи з int для preparationTime
+        public Recipe()
+        {
+            RecipeIngredients = new List<RecipeIngredient>();
+        }
+        // Оновлений метод для створення нового рецепту
         public static Recipe New(string name, string description, int preparationTimeMinutes,
             List<RecipeIngredient> recipeIngredients)
         {
-            var preparationTime = TimeSpan.FromMinutes(preparationTimeMinutes);  // Конвертуємо int в TimeSpan
-            var recipe = new Recipe(name, description, preparationTime); // Викликаємо конструктор з TimeSpan
-            recipe.RecipeIngredients = recipeIngredients;
+            var preparationTime = TimeSpan.FromMinutes(preparationTimeMinutes); // Конвертуємо в TimeSpan
+            var recipe = new Recipe(name, description, preparationTime);
+            recipe.AddIngredients(recipeIngredients); // Додаємо інгредієнти
             return recipe;
         }
 
@@ -48,17 +53,45 @@ namespace Domain.Recipes
             Name = name;
             Description = description;
             PreparationTime = TimeSpan.FromMinutes(preparationTimeMinutes); // Конвертуємо int в TimeSpan
-            RecipeIngredients = recipeIngredients;
+            UpdateIngredients(recipeIngredients); // Оновлюємо інгредієнти
+        }
+        
+        // Оновлений метод для оновлення Recipe
+        public void UpdateDetails(string name, string description, int preparationTimeMinutes)
+        {
+            Name = name;
+            Description = description;
+            PreparationTime = TimeSpan.FromMinutes(preparationTimeMinutes); // Конвертуємо int в TimeSpan
         }
 
-        public static Recipe New(RecipeId name, string mainRecipeTitle, string preparationTimeMinutes, DateTime recipeIngredients)
+        // Метод для додавання інгредієнтів
+        public void AddIngredients(List<RecipeIngredient> recipeIngredients)
         {
-            name = name;
-            mainRecipeTitle = mainRecipeTitle;
-            preparationTimeMinutes = preparationTimeMinutes;
-            return new Recipe(mainRecipeTitle, preparationTimeMinutes);
+            if (recipeIngredients != null)
+            {
+                foreach (var ingredient in recipeIngredients)
+                {
+                    RecipeIngredients.Add(ingredient); // Додаємо кожен інгредієнт по черзі
+                }
+            }
+        }
+        public void AddIngredient(RecipeIngredient ingredient)
+        {
+            // Додавання інгредієнта до списку інгредієнтів
+            RecipeIngredients.Add(ingredient);
+        }
+
+        // Метод для оновлення інгредієнтів
+        public void UpdateIngredients(List<RecipeIngredient> recipeIngredients)
+        {
+            if (recipeIngredients != null)
+            {
+                RecipeIngredients.Clear(); // Очищаємо старі інгредієнти
+                foreach (var ingredient in recipeIngredients)
+                {
+                    RecipeIngredients.Add(ingredient); // Додаємо кожен новий інгредієнт по черзі
+                }
+            }
         }
     }
-
- 
 }

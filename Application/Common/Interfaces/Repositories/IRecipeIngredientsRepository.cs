@@ -12,5 +12,6 @@ namespace Application.Common.Interfaces.Repositories
         Task<RecipeIngredient> Add(RecipeIngredient recipeIngredient, CancellationToken cancellationToken);
         Task Update(RecipeIngredient recipeIngredient, CancellationToken cancellationToken);
         Task Delete(RecipeIngredient recipeIngredient, CancellationToken cancellationToken);
+        Task RemoveByRecipeId(Guid recipeId, CancellationToken cancellationToken);
     }
 }

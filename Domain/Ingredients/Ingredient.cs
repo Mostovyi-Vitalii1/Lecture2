@@ -10,7 +10,7 @@ namespace Domain.Ingradients
        
 
         // Конструктор, який вимагає параметри
-        public Ingredient (string name)
+        public Ingredient(Guid newGuid, string name)
         {
             Id = IngredientId.New();  // Генерація нового ID для інгредієнта
             Name = name;

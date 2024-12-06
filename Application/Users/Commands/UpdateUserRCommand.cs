@@ -9,6 +9,7 @@ public class UpdateUserRCommand : IRequest<Result<UserR, string>>
     public UserRId UserId { get; set; }
     public string FirstName { get; set; }
     public string LastName { get; set; }
+    
     // Інші поля, якщо необхідно
 }
 
@@ -31,7 +32,6 @@ public class UpdateUserRCommandHandler : IRequestHandler<UpdateUserRCommand, Res
             return Result.Failure<UserR, string>("User not found"); // Помилка, якщо користувач не знайдений
         }
 
-        // Отримуємо користувача
         var user = userOption.ValueOrDefault(); // Використовуємо ValueOrDefault()
 
         if (user == null)
@@ -40,8 +40,7 @@ public class UpdateUserRCommandHandler : IRequestHandler<UpdateUserRCommand, Res
         }
 
         // Оновлюємо дані користувача
-        user.FirstName = request.FirstName;
-        user.LastName = request.LastName;
+        user.UpdateDetails(request.FirstName, request.LastName);  // Викликаємо метод UpdateDetails
 
         // Оновлюємо користувача в репозиторії
         await _repository.Update(user, cancellationToken);

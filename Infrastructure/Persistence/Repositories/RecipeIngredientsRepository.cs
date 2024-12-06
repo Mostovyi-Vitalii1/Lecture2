@@ -56,5 +56,20 @@ namespace Infrastructure.Persistence.Repositories
             _context.Set<RecipeIngredient>().Remove(recipeIngredient);
             await _context.SaveChangesAsync(cancellationToken);
         }
+
+        public async Task RemoveByRecipeId(Guid recipeId, CancellationToken cancellationToken)
+        {
+            // Отримуємо всі зв'язки для даного рецепту
+            var recipeIngredients = await _context.RecipeIngredients
+                .Where(ri => ri.RecipeId == recipeId)
+                .ToListAsync(cancellationToken);
+
+            // Видаляємо всі знайдені записи
+            _context.RecipeIngredients.RemoveRange(recipeIngredients);
+
+            // Зберігаємо зміни в базі даних
+            await _context.SaveChangesAsync(cancellationToken);
+        }
+
     }
 }

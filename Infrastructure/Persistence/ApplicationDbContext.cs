@@ -22,6 +22,7 @@ public class ApplicationDbContext : DbContext
 
     protected override void OnModelCreating(ModelBuilder builder)
     {
+        
         builder.ApplyConfigurationsFromAssembly(Assembly.GetExecutingAssembly());
         var favoriteRecipesIdConverter = new ValueConverter<FavoriteRecipesId, Guid>(
             id => id.Value, 

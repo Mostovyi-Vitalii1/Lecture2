@@ -23,10 +23,10 @@ namespace Api.Controllers
         }
 
         [HttpGet]
-        public async Task<ActionResult<IReadOnlyList<UserRDto>>> GetAll(CancellationToken cancellationToken)
+        public async Task<ActionResult<IReadOnlyList<UserGetDto>>> GetAll(CancellationToken cancellationToken)
         {
             var entities = await _userQueries.GetAll(cancellationToken);
-            return Ok(entities.Select(UserRDto.FromDomainModel).ToList());
+            return Ok(entities.Select(UserGetDto.FromDomainModel).ToList());
         }
 
         [HttpPost]
@@ -68,6 +68,7 @@ namespace Api.Controllers
                 UserId = new UserRId(id), // Перетворення ID в UserRId
                 FirstName = request.FirstName,
                 LastName = request.LastName,
+                
             };
 
             var result = await _sender.Send(input, cancellationToken);

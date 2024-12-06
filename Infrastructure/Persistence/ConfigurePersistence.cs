@@ -13,42 +13,42 @@ public static class ConfigurePersistence
 {
     public static void AddPersistence(this IServiceCollection services, IConfiguration configuration)
     {
+        // Налаштування підключення до PostgreSQL через NpgsqlDataSource
         var dataSourceBuild = new NpgsqlDataSourceBuilder(configuration.GetConnectionString("Default"));
-        dataSourceBuild.EnableDynamicJson();
+        dataSourceBuild.EnableDynamicJson();  // Підтримка динамічного JSON в PostgreSQL
         var dataSource = dataSourceBuild.Build();
 
-        services.AddDbContext<ApplicationDbContext>(
-            options => options
-                .UseNpgsql(
-                    dataSource,
-                    builder => builder.MigrationsAssembly(typeof(ApplicationDbContext).Assembly.FullName))
-                .UseSnakeCaseNamingConvention()
-                .ConfigureWarnings(w => w.Ignore(CoreEventId.ManyServiceProvidersCreatedWarning)));
+        // Додавання ApplicationDbContext до DI
+        services.AddDbContext<ApplicationDbContext>(options =>
+            options.UseNpgsql(dataSource, builder =>
+                builder.MigrationsAssembly(typeof(ApplicationDbContext).Assembly.FullName))
+            .UseSnakeCaseNamingConvention() // Використання зміщення імен в стилі snake_case
+            .ConfigureWarnings(w => w.Ignore(CoreEventId.ManyServiceProvidersCreatedWarning))
+        );
 
+        // Ініціалізація і реєстрація ApplicationDbContextInitialiser
         services.AddScoped<ApplicationDbContextInitialiser>();
+
+        // Додавання репозиторіїв та запитів через AddRepositories
         services.AddRepositories();
     }
 
     private static void AddRepositories(this IServiceCollection services)
     {
-        services.AddScoped<UserRRepository>();
-        services.AddScoped<IUserRRepository>(provider => provider.GetRequiredService<UserRRepository>());
-        services.AddScoped<IUserRQueries>(provider => provider.GetRequiredService<UserRRepository>());
+        // Реєстрація репозиторіїв та їх інтерфейсів
+        services.AddScoped<IUserRRepository, UserRRepository>();
+        services.AddScoped<IUserRQueries, UserRRepository>();
 
-        services.AddScoped<IngredientRepository>();
-        services.AddScoped<IIngredientRepository>(provider => provider.GetRequiredService<IngredientRepository>());
-        services.AddScoped<IIngredientQueries>(provider => provider.GetRequiredService<IngredientRepository>());
-        
-        services.AddScoped<FavoriteRecipesRepository>();
-        services.AddScoped<IFavoriteRecipesRepository>(provider => provider.GetRequiredService<FavoriteRecipesRepository>());
-        services.AddScoped<IFavoriteRecipesQueries>(provider => provider.GetRequiredService<FavoriteRecipesRepository>());
-        
-        services.AddScoped<RecipeRepository>();
-        services.AddScoped<IRecipeRepository>(provider => provider.GetRequiredService<RecipeRepository>());
-        services.AddScoped<IRecipeQueries>(provider => provider.GetRequiredService<RecipeRepository>());
-        
-        services.AddScoped<RecipeIngredientsRepository>();
-        services.AddScoped<IRecipeIngredientsRepository>(provider => provider.GetRequiredService<RecipeIngredientsRepository>());
-        services.AddScoped<IRecipeIngredientsQueries>(provider => provider.GetRequiredService<RecipeIngredientsRepository>());
+        services.AddScoped<IIngredientRepository, IngredientRepository>();
+        services.AddScoped<IIngredientQueries, IngredientRepository>();
+
+        services.AddScoped<IFavoriteRecipesRepository, FavoriteRecipesRepository>();
+        services.AddScoped<IFavoriteRecipesQueries, FavoriteRecipesRepository>();
+
+        services.AddScoped<IRecipeRepository, RecipeRepository>();
+        services.AddScoped<IRecipeQueries, RecipeRepository>();
+
+        services.AddScoped<IRecipeIngredientsRepository, RecipeIngredientsRepository>();
+        services.AddScoped<IRecipeIngredientsQueries, RecipeIngredientsRepository>();
     }
 }
